@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  background-color: #82AAA6;
+  font-family: 'Montserrat', sans-serif;
+  height: 350px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #372728;
+  margin-left: 2px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 140px;
+  text-align: center;
+  color: #372728;
+}
+
+.paper {
+  background: #F1EBCC;
+  width: 140px;
+  height: 175px;
+  border-radius: 10px;
+
+  top: 45.25%;
+  left: 44.5%;
+
+  position: absolute;
+}
+
+.paper:hover {
+  animation-name: sending;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+
+.envelope {
+  background: #AA7975;
+  width: 160px;
+  height: 100px;
+  border-radius: 2px;
+  position: absolute;
+
+  margin-top: 800px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+@keyframes sending {
+  0% {
+    margin-top: 0%;
+  }
+
+  100% {
+    margin-top: 140%;
+  }
+}
+
